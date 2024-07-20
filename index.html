@@ -3,68 +3,77 @@
     <title>Felix's Personal Website</title>
 </head>
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="./footer.css">
 <body>
     <header>
-        <h1>Felix Otieno</h1>
-        <nav>
-            <section>
-                <div><a href="#Home">Home</a></div>
-                <div><a href="#About">About</a></div>
-                <div><a href="#Portfolio">Portfolio</a></div>
-                <div><a href="#Skills">Skills</a></div>
-                <div><a href="#Experience">Experience</a></div>
-                <div><a href="#Education">Education</a></div>
-            </section>
-        </nav>
+        <section class="navigation">
+           <h1 class="little">Felix Otieno</h1>
+           <div class="navlinks">
+           <a href="#Home">Home</a>
+           <a href="#About">About</a>
+           <a href="#Portfolio">Portfolio</a>
+           <a href="#Skills">Skills</a>
+           <a href="#Experience">Experience</a>
+           <a href="#Education">Education</a>
+           </div>
+       </section>
     </header>
-    <section id="Home">
-        <h1>Felix Otieno</h1>
-        <p>Entreprenuer| Web Developer| Graphic Designer</p>
-        <img src="./FF.jpg" alt="Felix's Profile Picture">
-    </section>
-    <section id="About">
+        
+       
+        
+        
+    <section class="first" id="Home">
+        <img src="./Afeloh.JPG" alt="Felix's Profile Picture">
+        <div class="first-content">
+          <h1>Felix Otieno <hr> </h1> 
+        <p>Entreprenuer | Web Developer | Graphic Designer</p>
+        </div>
+    </section> <hr>
+          
+        
+    <section class="wewe" id="About">
         <h1>About Me</h1>
         <p>Hello, my name is Felix Otieno. 
-            I am a web developer with a strong eagerness to learn how to design websites, aligning with my talent for drawing. 
-            I am proficient in front-end development and my journey began with a curiosity to understand how computers work. 
+            I am a web developer with a strong eagerness to learn how to design websites, aligning with my talent for drawing. <br> 
+            I am proficient in front-end development and my journey began with a curiosity to understand how computers work. <br> 
             I have skills in HTML, CSS, and JavaScript, which are essential for designing websites.
         </p>
     </section>
         
 
-    <section id="Portfolio">
-        <h1>Felix Otieno's Portfolio</h1>
+    <section class="port-card" id="Portfolio"> <hr>
+        <h1>Felix Otieno's Portfolio </h1>
         <div class="card-container">
-            <div class="card"><img src="./Afeloh.JPG" width="345"  alt="Afeloh's profile picture">
+            <div class="card"><img src="./FF.jpg" width="345"  alt="Afeloh's profile picture">
                 <div class="card-content">
-                    <h1>About Me</h1>
-                    <p>Hello, I am Felix Otieno <br>
+                    <h2>About Me</h2>
+                    <p>Hello, I am Felix Otieno. <br>
                         Entreprenuer| Web Developer| Graphic Designer
                     </p>
                 </div>
             </div>
-            <div class="card"><img src="./project-icon.png" alt="This is a project picture">
+            <div class="card"><img src="./projo.jpg" width="345" alt="This is a project picture">
                 <div class="card-content">
-                    <ul>
+                    
                         <h2>My Projects</h2>
-                        <li>
-                            <h3>My Website</h3>
+                        
+                            <h4>My Website</h4>
                             <p>
                                 I create a tourism website using html, css and JavaScript. <br>
                                 <a href=" https://felix-otieno.github.io/">View project</a>
                             </p>
-                        </li>
-                        <li>
-                            <h3>Graphic design</h3>
+                        
+                        
+                            <h4>Graphic design</h4>
                             <p>
                                 Behance is an application that I use to showcase my graphic design and creative works. <br>
                                 <a href="https://www.behance.net/felixomondi5">View my graphic design at Behance</a>
                             </p>
-                        </li>
-                    </ul>    
+                        
+                       
                 </div>        
             </div>        
-            <div class="card"><img src="./skill pic.png" alt="A skill picture">
+            <div class="card"><img src="./skill pic.png" width="345" alt="A skill picture">
                 <div class="card-content">
                     <h2>Skills</h2>
                     <p><ul>
@@ -78,9 +87,9 @@
                     </p>    
                  </div>   
             </div>    
-             <div class="card"><img src="./contact.png" alt="A contact picture">
+             <div class="card"><img src="./contact.png" width="345" alt="A contact picture">
                 <div class="card-content">
-                    <h1>Contacts</h1>
+                    <h2>Contacts</h2>
                     <p> 
                         Phone Number: +254796162024 <br>
                         Email: omondifelixotieno2@mail.com <br>
@@ -92,65 +101,75 @@
                 </div>
             </div>
         </div> 
+    </section> <hr>
+    
+    <section class="hall">
+        <article class="hallow" id="Skills">
+            <h2>My Skills <hr> </h2>
+            <ul>
+                <h3>
+                    Technical Skill
+                </h3>
+                <li>Proficient in HTML, CSS, and JavaScript concepts.</li>
+                <li>Understanding of MySQL databases.</li>
+                <li>Proficient in Git for tracking changes and collaborating with others.</li>
+                <h3>
+                    Soft Skills
+                </h3>
+                <li>Effective communication us communicate with other team members during teamwork.</li>
+                <li>Collaboratiion and teamwork with other developers and web designers.</li>
+                <li>Adaptability by being willing to adapt to new trends and technology</li>
+            </ul> <hr>   
+        </article>
+            <article class="hallow" class="nayo" id="Experience">
+            <h2>My Work Experience <hr> </h2> 
+            <p>
+                Junior Web Developer: Create web sites using HTML, CSS, and JavaScript. <br>
+                                      Maintain and update website contents, ensure information is accurate.
+            </p> 
+            <p>
+                Advisory Board Member in Art Collection: Participate in activities such as research of arts and shipping them abroad.
+            </p> <hr>        
+        </article>
+        <article class="hallow" class="finish" id="Education">
+            <h2>Educational Background <hr> </h2>
+            <p>ICT Certificate <br>
+               Tunapanda Institute Nairobi, Kenya. <br>
+               Graduation date: 18 <sup>th</sup> March 2024 <br>
+               Relevant coursework: Personal development skills.
+            </p>
+            <p>ICT Certificate <br>
+                Franky Foundation Nairobi, Kenya. <br>
+                Graduation date: 20 <sup>th</sup> May 2024 <br>
+                Relevant coursework: E-Waste management.
+            </p>
+            <p>
+                Freelancing Certificate <br>
+                Na'amal Training Organisation <br>
+                Graduation date: 28 <sup>th</sup> June 2024 <br>
+                Relevant coursework: Freelancing skills
+            </p> <hr>
+        </article> 
+        
+
     </section>
-    <section id="Skills">
-        <h2>My Skills</h2>
-        <ul>
-            <h3>
-                Technical Skill
-            </h3>
-            <li>Proficient in HTML, CSS, and JavaScript concepts.</li>
-            <li>Understanding of MySQL databases.</li>
-            <li>Proficient in Git for tracking changes and collaborating with others.</li>
-            <h3>
-                Soft Skills
-            </h3>
-            <li>Effective communication us communicate with other team members during teamwork.</li>
-            <li>Collaboratiion and teamwork with other developers and web designers.</li>
-            <li>Adaptability by being willing to adapt to new trends and technology</li>
-        </ul>   
-    </section>
-        <section id="Experience">
-        <h2>My Work Experience</h2>
-        <p>
-            Junior Web Developer: Create web sites using HTML, CSS, and JavaScript. <br>
-                                  Maintain and update website contents, ensure information is accurate.
-        </p> 
-        <p>
-            Advisory Board Member in Art Collection: Participate in activities such as research of arts and shipping them abroad.
-        </p>        
-    </section>
-    <section id="Education">
-        <h2>Educational Background</h2>
-        <p>ICT Certificate <br>
-           Tunapanda Institute Nairobi, Kenya. <br>
-           Graduation date: 18 <sup>th</sup> March 2024 <br>
-           Relevant coursework: Personal development skills.
-        </p>
-        <p>ICT Certificate <br>
-            Franky Foundation Nairobi, Kenya. <br>
-            Graduation date: 20 <sup>th</sup> May 2024 <br>
-            Relevant coursework: E-Waste management.
-        </p>
-        <p>
-            Freelancing Certificate <br>
-            Na'amal Training Organisation <br>
-            Graduation date: 28 <sup>th</sup> June 2024 <br>
-            Relevant coursework: Freelancing skills
-        </p>
-    </section>
+   
 
     <footer>
-        <img src="./logo.png" alt="Felix's personal logo">
         
-        <section>
-            <ddiv><a href="https://www.linkedin.com/in/felix-omondi-4a03a42b8/"><img src="linkedin-with-circle-icon-1024x1024-m0epmra3.png" width="250" alt="LinkedIn icon"></a></div>
-            <ddiv><a href="https://github.com/Felix-Otieno"><img src="./11023876.png" width="250" alt="Github icon"></a></div>
-            <ddiv><a href="https://www.behance.net/felixomondi5"><img src="./free-behance-icon-2161-thumb.png" width="250" alt="Behance icon"></a></div>
-            <ddiv><a href="https://www.upwork.com/apps/"><img src="./upwork-512 (1).webp" width="250" alt="Upwork icon"></a></div>
-        </section>
-      <p>&copy; 2024 Felix's Personal Website. All rights reserved.</p>
+        
+        
+            <div>
+            <a href="https://www.linkedin.com/in/felix-omondi-4a03a42b8/"><img class="yoy" src="linkedin-with-circle-icon-1024x1024-m0epmra3.png" width="50" alt="LinkedIn icon"></a>
+            <a href="https://github.com/Felix-Otieno"><img class="yoy" src="./11023876.png" width="50" alt="Github icon"></a>
+            <a href="https://www.behance.net/felixomondi5"><img class="yoy" src="./free-behance-icon-2161-thumb.png" width="50" alt="Behance icon"></a>
+            <a href="https://www.upwork.com/apps/"><img class="yoy" src="./upwork-512 (1).webp" width="50" alt="Upwork icon"></a>
+            </div>
+        
+      <p class="para">&copy; 2024 Felix's Personal Website. All rights reserved.</p>
     </footer>
+</body>
+</html>
         
         
 
@@ -163,5 +182,3 @@
     
 
     
-</body>
-</html>
